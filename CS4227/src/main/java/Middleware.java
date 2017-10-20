@@ -1,4 +1,5 @@
 import Validation.ValidationService;
+import org.apache.http.HttpRequest;
 import requestManagement.*;
 
 import java.util.ArrayList;
@@ -9,6 +10,8 @@ public class Middleware {
         Dispatcher dispatcher = new Dispatcher(new ArrayList<Service>());
         ValidationService validationService = new ValidationService();
         dispatcher.register(validationService);
-        validationService.processIncomingRequest(new Context());
+        Context context = new Context();
+        context.setEvent(null);
+       // validationService.processIncomingRequest(context);
     }
 }
