@@ -1,8 +1,14 @@
-import requestManagement.RequestManager;
+import Validation.ValidationService;
+import requestManagement.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Middleware {
     public static void main(String [] args) {
-        System.out.println("Hi");
-
+        Dispatcher dispatcher = new Dispatcher(new ArrayList<Service>());
+        ValidationService validationService = new ValidationService();
+        dispatcher.register(validationService);
+        validationService.processIncomingRequest(new Context());
     }
 }
