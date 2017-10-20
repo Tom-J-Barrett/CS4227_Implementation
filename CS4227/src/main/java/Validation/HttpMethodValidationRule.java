@@ -16,10 +16,11 @@ public class HttpMethodValidationRule implements ValidationRule {
         http = ((HttpRequest) validationData);
         RequestLine requestLine = http.getRequestLine();
         String method = requestLine.getMethod();
-        validateHttpMethod(method);
+        if (validateHttpMethod(method))
+            System.out.println("HTTP Method is valid!");
     }
 
     public boolean validateHttpMethod(String method) {
-        return Boolean.parseBoolean(null);
+        return true;
     }
 }

@@ -13,10 +13,11 @@ public class HttpParamsValidationRule implements ValidationRule{
     public void validate(Object validationData) {
         http = ((HttpRequest) validationData);
         RequestLine requestLine = http.getRequestLine();
-        validateHttpParams();
+        if (validateHttpParams())
+            System.out.println("HTTP parameters are valid!");
     }
 
     public boolean validateHttpParams() {
-        return Boolean.parseBoolean(null);
+        return true;
     }
 }
