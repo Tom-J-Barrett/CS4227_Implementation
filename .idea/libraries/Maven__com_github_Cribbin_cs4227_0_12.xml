@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.Cribbin:cs4227:0.12">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/0.12/cs4227-0.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/0.12/cs4227-0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

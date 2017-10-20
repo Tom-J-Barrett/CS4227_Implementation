@@ -18,8 +18,9 @@
         <dependency>
             <groupId>com.github.Cribbin</groupId>
             <artifactId>cs4227</artifactId>
-            <version>[Latest Release]</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
+
 
 </project>
