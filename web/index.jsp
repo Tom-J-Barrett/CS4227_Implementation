@@ -1,4 +1,4 @@
-<%--
+<%@ page import="middleware.ValidateHttp" %><%--
   Created by IntelliJ IDEA.
   User: tom13
   Date: 11/10/2017
@@ -13,5 +13,6 @@
   <body>
   $END$
   Hello <b><%= request.getMethod() %></b>!
+  Hello <b><%ValidateHttp http = new ValidateHttp(); %></b>!
   </body>
 </html>
