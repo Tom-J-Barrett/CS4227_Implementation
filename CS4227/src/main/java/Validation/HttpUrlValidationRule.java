@@ -18,6 +18,7 @@ public class HttpUrlValidationRule implements ValidationRule {
             System.out.println("HTTP URI is valid!");
     }
 
+    //raise exceptions instead
     public boolean validateHttpUrl(String method) {
         return true;
     }

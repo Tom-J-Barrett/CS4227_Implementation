@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ValidationService implements Service {
-
+    // add adapter for http mapping
     public void processIncomingRequest(Context context) {
         HttpRequest httpRequest = ((HttpRequest) context.getEvent());
         validateHttp(httpRequest);
