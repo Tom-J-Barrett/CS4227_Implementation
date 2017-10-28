@@ -12,19 +12,26 @@ public class ValidationService implements Service {
     // add adapter for http mapping
     public void processIncomingRequest(Context context) {
         HttpRequest httpRequest = ((HttpRequest) context.getEvent());
-        validateHttp(httpRequest);
+        try {
+            validateHttp(httpRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void processOutgoingResponse(Context context) {
         HttpRequest httpRequest = ((HttpRequest) context.getEvent());
-        validateHttp(httpRequest);
+        try {
+            validateHttp(httpRequest);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void validateHttp(HttpRequest http) {
-        List<ValidationRule> rules = new ArrayList<ValidationRule>();
-        rules.add(new HttpMethodValidationRule());
-        rules.add(new HttpUrlValidationRule());
-        rules.add(new HttpParamsValidationRule());
+    public void validateHttp(HttpRequest http) throws Exception {
+        ValidationRuleFactory validationRuleFactory = new ValidationRuleFactory();
+        List<ValidationRule> rules = validationRuleFactory.getRulesToRun();
+
         for ( ValidationRule rule : rules){
             rule.validate(http);
         }

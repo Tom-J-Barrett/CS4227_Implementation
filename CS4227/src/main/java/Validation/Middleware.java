@@ -1,7 +1,9 @@
 package Validation;
 
 import org.apache.http.HttpRequest;
-import requestManagement.*;
+import requestManagement.Context;
+import requestManagement.Dispatcher;
+import requestManagement.Service;
 
 import java.util.ArrayList;
 
@@ -10,12 +12,12 @@ public class Middleware {
         System.out.println("Validation.Middleware code!");
     }
 
-    public void Middleware(Object httpRequest) {
+    public void runValidation(Object httpRequest) {
         Dispatcher dispatcher = new Dispatcher(new ArrayList<Service>());
         ValidationService validationService = new ValidationService();
         dispatcher.register(validationService);
         Context context = new Context();
-        context.setEvent(((HttpRequest) httpRequest));
-        validationService.processIncomingRequest(context);
+       // context.setEvent(((HttpRequest) httpRequest));
+        dispatcher.dispatchIncomingRequest(context);
     }
 }

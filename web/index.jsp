@@ -13,6 +13,6 @@
   <body>
   $END$
   Hello <b><%= request.getMethod() %></b>!
-  Hello <b><%ValidateHttp http = new ValidateHttp(); %></b>!
+  Hello <b><%ValidateHttp http = new ValidateHttp(request); %></b>!
   </body>
 </html>
