@@ -1,17 +1,18 @@
-package Validation;
+package validation;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.protocol.HTTP;
 import requestManagement.Context;
 import requestManagement.Service;
+import requests.HttpRequest;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class ValidationService implements Service {
-    // add adapter for http mapping
+/**
+ * Service used for HTTP validation
+ */
+public class HttpValidationService implements Service {
+
     public void processIncomingRequest(Context context) {
-        HttpRequest httpRequest = ((HttpRequest) context.getEvent());
+        HttpRequest httpRequest = (HttpRequest) context.getEvent();
         try {
             validateHttp(httpRequest);
         } catch (Exception e) {
@@ -29,10 +30,10 @@ public class ValidationService implements Service {
     }
 
     public void validateHttp(HttpRequest http) throws Exception {
-        ValidationRuleFactory validationRuleFactory = new ValidationRuleFactory();
-        List<ValidationRule> rules = validationRuleFactory.getRulesToRun();
+        HttpValidationRuleFactory httpValidationRuleFactory = new HttpValidationRuleFactory();
+        List<HttpValidationRule> rules = httpValidationRuleFactory.getRulesToRun(http.getMethod());
 
-        for ( ValidationRule rule : rules){
+        for (HttpValidationRule rule : rules){
             rule.validate(http);
         }
     }

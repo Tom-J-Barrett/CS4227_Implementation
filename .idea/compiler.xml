@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CS4227" target="1.6" />
+      <module name="CS4227" target="1.8" />
       <module name="CS4227_framework" target="1.6" />
     </bytecodeTargetLevel>
   </component>
