@@ -18,7 +18,7 @@ public class HttpUriHttpValidationRule implements HttpValidationRule {
         final URL url;
         try {
             url = new URL(uri);
-        } catch (Exception e1) {
+        } catch (Exception ex) {
             throw new Exception(exceptionMessage());
         }
     }

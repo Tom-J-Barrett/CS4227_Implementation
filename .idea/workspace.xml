@@ -7,37 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b1ddb4-a4ed-4f59-8c67-f1dee53ce747" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpMethodHttpValidationRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRuleFactory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_Cribbin_cs4227_0_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_Cribbin_cs4227_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/HttpMethodValidationRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/HttpUrlValidationRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/ValidationRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/ValidationRuleFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/HttpMethodValidationRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/HttpParamsValidationRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/HttpUrlValidationRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/Middleware.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/ValidationRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/ValidationRuleFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CS4227/target/classes/Validation/ValidationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CS4227_Implementation/middleware/ValidateHttp.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/HttpParamsValidationRule.java" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpParamsHttpValidationRule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/Middleware.java" afterPath="$PROJECT_DIR$/CS4227/src/main/java/processHttp/Middleware.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CS4227/src/main/java/Validation/ValidationService.java" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/middleware/ValidateHttp.java" afterPath="$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS4227/target/classes/validation/HttpUriHttpValidationRule.class" afterPath="$PROJECT_DIR$/CS4227/target/classes/validation/HttpUriHttpValidationRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CS4227_Implementation_war_exploded/CS4227_Implementation_war exploded.war" afterPath="$PROJECT_DIR$/out/artifacts/CS4227_Implementation_war_exploded/CS4227_Implementation_war exploded.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CS4227_Implementation_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CS4227_Implementation_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS4227/CS4227.iml" afterPath="$PROJECT_DIR$/CS4227/CS4227.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS4227/pom.xml" afterPath="$PROJECT_DIR$/CS4227/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java" afterPath="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/CS4227/target/" />
@@ -51,11 +26,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Middleware.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Middleware.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/processHttp/Middleware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="421">
+              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessHttpRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpMethodHttpValidationRule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpMethodHttpValidationRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUriHttpValidationRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,7 +122,6 @@
         <option value="$PROJECT_DIR$/CS4227/src/main/java/Validation/Middleware.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/Validation/HttpUrlValidationRule.java" />
         <option value="$PROJECT_DIR$/CS4227/pom.xml" />
-        <option value="$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/processHttp/Middleware.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/ValidationService.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/ValidationRuleFactory.java" />
@@ -122,12 +130,13 @@
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriValidationRule.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpParamsValidationRule.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRule.java" />
-        <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpMethodHttpValidationRule.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpParamsHttpValidationRule.java" />
-        <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRuleFactory.java" />
         <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationService.java" />
         <option value="$PROJECT_DIR$/CS4227/src/test/java/unit/HttpValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java" />
+        <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java" />
+        <option value="$PROJECT_DIR$/CS4227/src/main/java/validation/HttpMethodHttpValidationRule.java" />
       </list>
     </option>
   </component>
@@ -177,7 +186,6 @@
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,31 +226,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="processHttp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS4227_Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="CS4227" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS4227_Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="CS4227" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS4227_Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="CS4227" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
@@ -256,33 +251,60 @@
             <path>
               <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.Cribbin:cs4227:1.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.Cribbin:cs4227:1.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="cs4227-1.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.Cribbin:cs4227:1.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="cs4227-1.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.Cribbin:cs4227:1.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="cs4227-1.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="adapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS4227_Implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Tomcat 8.5.23" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS4227_middleware_framework" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jsp-api-2.2.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46622518" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tom13\IdeaProjects\CS4227_Implementation\src\middleware" />
-      <recent name="C:\Users\tom13\IdeaProjects\CS4227_Implementation\src\middleware\middleware_framework" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tom13\IdeaProjects\CS4227_Implementation\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tom13\IdeaProjects\CS4227_Implementation\src\middleware" />
+      <recent name="C:\Users\tom13\IdeaProjects\CS4227_Implementation\src\middleware\middleware_framework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,6 +351,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51006" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -470,12 +525,13 @@
       <workItem from="1509648771260" duration="13000" />
       <workItem from="1509715742072" duration="833000" />
       <workItem from="1509746866128" duration="1446000" />
-      <workItem from="1509749439519" duration="3379000" />
+      <workItem from="1509749439519" duration="3483000" />
+      <workItem from="1509789283251" duration="3173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33990000" />
+    <option name="totallyTimeSpent" value="37267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,38 +544,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082340196" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34127843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34127843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.8950086" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.8950086" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18743287" sideWeight="0.10499139" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -567,27 +622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -646,92 +680,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/Validation/ValadationService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/FleetManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/InactiveHost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/HostStateFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/HostState.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/ActiveHost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/Host.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManagerBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Service.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/FleetManager.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/InactiveHost.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/HostStateFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/HostState.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/ActiveHost.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/fleetManager/hosts/Host.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManagerBuilder.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManagerImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/RequestManager.class" />
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/Validation/Validation.java" />
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/Validation/ValidationData.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Dispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Dispatcher.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.0/cs4227-1.0.jar!/requestManagement/Context.class" />
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/HttpTest.java" />
     <entry file="file://$PROJECT_DIR$/web/ValidateHttp.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/java/Validation/ValidationRule.java" />
@@ -750,50 +712,7 @@
     <entry file="file://$PROJECT_DIR$/src/Servlet.java" />
     <entry file="file://$PROJECT_DIR$/src/middleware/middleware_framework/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/middleware/middleware_framework/src/main/java/TestPackage.java" />
-    <entry file="file://$PROJECT_DIR$/CS4227/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/processHttp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpParamsHttpValidationRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/processHttp.java" />
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpValidationRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -832,6 +751,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/CS4227.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227_Implementation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/processHttp/Middleware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpParamsHttpValidationRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/Cribbin/cs4227/1.2/cs4227-1.2.jar!/requests/adapters/HttpServletRequestAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/ProcessHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpUriHttpValidationRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -840,18 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/validation/HttpMethodHttpValidationRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS4227/src/main/java/processHttp/Middleware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -868,7 +842,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.46622518" />
                 <option value="0.5" />
               </list>
             </option>
@@ -917,7 +891,6 @@
             <option name="proportions">
               <list>
                 <option value="0.46622518" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
