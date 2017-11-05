@@ -7,16 +7,14 @@ import requests.HttpRequest;
  */
 public class HttpParamsHttpValidationRule implements HttpValidationRule {
 
-    protected HttpParamsHttpValidationRule() {
-    }
+    protected HttpParamsHttpValidationRule() {}
 
     @Override
     public void validate(HttpRequest httpRequest) throws Exception {
         //Would implement for POST requests
     }
 
-    @Override
-    public String exceptionMessage() {
+    public String getExceptionMessage() {
         return "Params are invalid";
     }
 }

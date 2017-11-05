@@ -7,5 +7,4 @@ import requests.HttpRequest;
  */
 public interface HttpValidationRule {
     void validate(HttpRequest httpRequest) throws Exception;
-    String exceptionMessage();
 }

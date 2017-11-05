@@ -20,14 +20,7 @@ public class HttpValidationService implements Service {
         }
     }
 
-    public void processOutgoingResponse(Context context) {
-        HttpRequest httpRequest = ((HttpRequest) context.getEvent());
-        try {
-            validateHttp(httpRequest);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    public void processOutgoingResponse(Context context) {}
 
     public void validateHttp(HttpRequest http) throws Exception {
         HttpValidationRuleFactory httpValidationRuleFactory = new HttpValidationRuleFactory();

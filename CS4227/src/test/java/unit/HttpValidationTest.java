@@ -19,11 +19,7 @@ class HttpValidationTest {
                 .build();
 
         HttpValidationService httpValidationService = new HttpValidationService();
-        try {
-            httpValidationService.validateHttp(request);
-        } catch (Exception e) {
-            throw new Exception("Invalid request");
-        }
+        httpValidationService.validateHttp(request);
     }
 
 }

@@ -15,16 +15,15 @@ public class HttpUriHttpValidationRule implements HttpValidationRule {
     public void validate(HttpRequest httpRequest) throws Exception {
         String uri = httpRequest.getUri();
 
-        final URL url;
+        URL url;
         try {
             url = new URL(uri);
         } catch (Exception ex) {
-            throw new Exception(exceptionMessage());
+            throw new RuntimeException(getExceptionMessage());
         }
     }
 
-    @Override
-    public String exceptionMessage() {
+    public String getExceptionMessage() {
         return "URI is invalid";
     }
 }

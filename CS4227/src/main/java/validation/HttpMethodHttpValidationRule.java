@@ -17,8 +17,8 @@ public class HttpMethodHttpValidationRule implements HttpValidationRule {
     public void validate(HttpRequest httpRequest) throws Exception {
         String method = httpRequest.getMethod();
         List<String> methods = getHttpMethods();
-        if(!(methods.contains(method))) {
-            throw new Exception(exceptionMessage());
+        if (!methods.contains(method)) {
+            throw new RuntimeException(getExceptionMessage());
         }
     }
 
@@ -36,6 +36,5 @@ public class HttpMethodHttpValidationRule implements HttpValidationRule {
         return methods;
     }
 
-    @Override
-    public String exceptionMessage() { return "Method is invalid"; }
+    public String getExceptionMessage() { return "Method is invalid"; }
 }

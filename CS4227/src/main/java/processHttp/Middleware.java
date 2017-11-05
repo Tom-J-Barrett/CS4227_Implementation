@@ -47,13 +47,9 @@ public class Middleware {
         HttpValidationService httpValidationService = new HttpValidationService();
         dispatcher.register(httpValidationService);
 
-        Context context = new Context();
         HttpRequest httpRequest = new HttpServletRequestAdapter(httpServletRequest);
-        context.setEvent(httpRequest);
+        HttpResponse response = requestManager.handleRequest(httpRequest);
 
-        dispatcher.dispatchIncomingRequest(context);
-
-        HttpResponse response = loadBalancer.executeRequest(httpRequest);
-        JOptionPane.showMessageDialog(null,"Request :" + httpRequest.getUri() + "   Response: " + response.getStatus());
+        JOptionPane.showMessageDialog(null, String.format("Request: %s | Response: %s", httpRequest.getUri(), response.getStatus()));
     }
 }
