@@ -9,7 +9,7 @@ import java.net.URL;
  */
 public class HttpUriHttpValidationRule implements HttpValidationRule {
 
-    protected HttpUriHttpValidationRule() {    }
+    protected HttpUriHttpValidationRule() {}
 
     @Override
     public void validate(HttpRequest httpRequest) throws Exception {

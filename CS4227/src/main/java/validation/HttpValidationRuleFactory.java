@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class HttpValidationRuleFactory {
 
-    HttpValidationRuleFactory() {    }
+    HttpValidationRuleFactory() {}
 
     public List<HttpValidationRule> getRulesToRun(String method) {
         List<HttpValidationRule> listOfRules = new ArrayList<>();

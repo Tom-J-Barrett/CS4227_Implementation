@@ -11,9 +11,7 @@ import java.util.List;
 public class HttpMethodHttpValidationRule implements HttpValidationRule {
 
 
-    protected HttpMethodHttpValidationRule() {
-
-    }
+    protected HttpMethodHttpValidationRule() {}
 
     @Override
     public void validate(HttpRequest httpRequest) throws Exception {
