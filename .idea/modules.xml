@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/CS4227/CS4227.iml" filepath="$PROJECT_DIR$/CS4227/CS4227.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CS4227_Implementation.iml" filepath="$PROJECT_DIR$/CS4227_Implementation.iml" />
-    </modules>
-  </component>
-</project>
