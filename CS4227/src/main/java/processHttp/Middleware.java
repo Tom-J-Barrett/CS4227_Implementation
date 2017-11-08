@@ -19,6 +19,8 @@ import java.util.ArrayList;
 
 public class Middleware {
 
+    private String responseToUser;
+
     public Middleware() {}
 
     public void runMiddleware(HttpServletRequest httpServletRequest) throws IOException {
@@ -50,6 +52,10 @@ public class Middleware {
         HttpRequest httpRequest = new HttpServletRequestAdapter(httpServletRequest);
         HttpResponse response = requestManager.handleRequest(httpRequest);
 
-        JOptionPane.showMessageDialog(null, String.format("Request: %s | Response: %s", httpRequest.getUri(), response.getStatus()));
+        responseToUser = String.format("Request: %s | Response: %s", httpRequest.getUri(), response.getBody());
+    }
+
+    public String getResponseToUser(){
+        return responseToUser;
     }
 }
