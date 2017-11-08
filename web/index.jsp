@@ -6,6 +6,6 @@
   </head>
   <body>
   <b><%ProcessHttpRequest http = new ProcessHttpRequest(request); %></b>
-  This is your response: <b><%= http.getResponse() %></b>!
+  This is your response: <b><%= http.getResponse() %></b>
   </body>
 </html>

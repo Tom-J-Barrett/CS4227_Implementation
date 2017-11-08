@@ -52,7 +52,7 @@ public class Middleware {
         HttpRequest httpRequest = new HttpServletRequestAdapter(httpServletRequest);
         HttpResponse response = requestManager.handleRequest(httpRequest);
 
-        responseToUser = String.format("Request: %s | Response: %s", httpRequest.getUri(), response.getBody());
+        responseToUser = String.format("Request: %s | Response: %s | Status: %s", httpRequest.getUri(), response.getStatus(), response.getStatusCode());
     }
 
     public String getResponseToUser(){
