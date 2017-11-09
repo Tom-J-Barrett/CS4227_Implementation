@@ -1,7 +1,10 @@
 package validation;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Class used to return a list of validation rules for a HTTP request.
@@ -10,23 +13,34 @@ import java.util.List;
  */
 public class HttpValidationRuleFactory {
 
-    HttpValidationRuleFactory() {}
+    private Map<String, Runnable> methodRules;
+    private List<HttpValidationRule> listOfRules;
+
+    HttpValidationRuleFactory() {
+        methodRules = new HashMap();
+        populateMethodRules();
+    }
+
+    private void populateMethodRules() {
+        methodRules.put("GET", () -> getGetRequestValidation());
+        methodRules.put("POST", () -> getPostRequestValidation());
+    }
 
     public List<HttpValidationRule> getRulesToRun(String method) {
-        List<HttpValidationRule> listOfRules = new ArrayList<>();
-        listOfRules.add(new HttpMethodHttpValidationRule());
-        listOfRules.add(new HttpUriHttpValidationRule());
+        listOfRules = new ArrayList<>();
 
-        switch (method) {
-            case "POST" : listOfRules = getPostRequestValidation(listOfRules); break;
-        }
+        methodRules.get(method).run();
 
         return listOfRules;
     }
 
-    private List<HttpValidationRule> getPostRequestValidation(List<HttpValidationRule> listOfRules) {
+    private void getPostRequestValidation() {
+        getGetRequestValidation();
         listOfRules.add(new HttpParamsHttpValidationRule());
+    }
 
-        return listOfRules;
+    private void getGetRequestValidation() {
+        listOfRules.add(new HttpMethodHttpValidationRule());
+        listOfRules.add(new HttpUriHttpValidationRule());
     }
 }

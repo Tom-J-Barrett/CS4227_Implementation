@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 import requests.HttpRequest;
 import validation.HttpValidationService;
 
-import javax.servlet.http.HttpServletRequest;
-
 /**
  * Testing for validation service.
  */
@@ -21,5 +19,4 @@ class HttpValidationTest {
         HttpValidationService httpValidationService = new HttpValidationService();
         httpValidationService.validateHttp(request);
     }
-
 }
