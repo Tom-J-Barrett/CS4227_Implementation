@@ -5,8 +5,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
-  Hello <b><%= request.getMethod() %></b>!
-  Hello <b><%ProcessHttpRequest http = new ProcessHttpRequest(request); %></b>!
+  <b><%ProcessHttpRequest http = new ProcessHttpRequest(request); %></b>
+  This is your response: <b><%= http.getResponse() %></b>
   </body>
 </html>
