@@ -13,12 +13,16 @@ import responses.HttpResponse;
 import validation.HttpValidationService;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import java.util.logging.Logger;
+
+
+
 public class Middleware {
 
+    private final static Logger LOGGER = Logger.getLogger(Middleware.class.getName());
     private String responseToUser;
 
     public Middleware() {}
@@ -39,23 +43,33 @@ public class Middleware {
                 .withHealthChecker(healthCheck)
                 .build();
 
-        Host testHost = new Host.HostBuilder("192.168.1.1")
-                .withDns("httpbin.org")
+//        Host testHost2 = new Host.HostBuilder("192.168.1.1")
+//                .withDns("httpbin.org")
+//                .withState("active")
+//                .build();
+
+        Host ec2Host = new Host.HostBuilder("10.0.1.142")
+                .withDns("ip-10-0-1-142.eu-west-1.compute.internal:5000")
                 .withState("active")
                 .build();
 
-        fleetManager.addHost(testHost);
+        fleetManager.removeHost(ec2Host);
+        fleetManager.addHost(ec2Host);
 
         HttpValidationService httpValidationService = new HttpValidationService();
         dispatcher.register(httpValidationService);
 
         HttpRequest httpRequest = new HttpServletRequestAdapter(httpServletRequest);
-        HttpResponse response = requestManager.handleRequest(httpRequest);
 
-        responseToUser = String.format("Request: %s | Response: %s | Status: %s", httpRequest.getUri(), response.getStatus(), response.getStatusCode());
+        LOGGER.info("Original URL: " + httpServletRequest.getRequestURL());
+        LOGGER.info("HTTP Request URL: " + httpRequest.getUri());
+
+        HttpResponse response =  requestManager.handleRequest(httpRequest);
+
+        responseToUser = String.format("Initial Request URL: %s | Response: %s | Status: %s", httpServletRequest.getRequestURL(), response.getStatus(), response.getStatusCode());
     }
 
-    public String getResponseToUser(){
+    public String getResponseToUser() {
         return responseToUser;
     }
 }
