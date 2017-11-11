@@ -43,11 +43,6 @@ public class Middleware {
                 .withHealthChecker(healthCheck)
                 .build();
 
-//        Host testHost2 = new Host.HostBuilder("192.168.1.1")
-//                .withDns("httpbin.org")
-//                .withState("active")
-//                .build();
-
         Host ec2Host = new Host.HostBuilder("10.0.1.142")
                 .withDns("ip-10-0-1-142.eu-west-1.compute.internal:5000")
                 .withState("active")
