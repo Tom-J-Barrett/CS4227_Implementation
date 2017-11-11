@@ -43,13 +43,15 @@ public class Middleware {
                 .withHealthChecker(healthCheck)
                 .build();
 
-        Host ec2Host = new Host.HostBuilder("10.0.1.142")
-                .withDns("ip-10-0-1-142.eu-west-1.compute.internal:5000")
+        Host host = new Host.HostBuilder("192.168.1.1")
+                .withDns("httpbin.org")
                 .withState("active")
+                .withMaxConnections(3)
+                .withPort(80)
                 .build();
 
-        fleetManager.removeHost(ec2Host);
-        fleetManager.addHost(ec2Host);
+        fleetManager.addHost(host);
+        requestManager.initialiseFleet();
 
         HttpValidationService httpValidationService = new HttpValidationService();
         dispatcher.register(httpValidationService);
